@@ -21,3 +21,5 @@
 6. Clone a repository
 > git clone <url>
 
+7. Look logs
+> git --oneline

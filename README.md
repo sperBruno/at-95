@@ -15,5 +15,9 @@
 4. See commits
 > git log
 
-5. Clone a repository
+5. Move to a branch
+> git checkout <branch name>
+
+6. Clone a repository
 > git clone <url>
+

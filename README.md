@@ -12,6 +12,9 @@
 3. Initialize git repository
 > git init
 
-4. Clone a repository
+4. Move to a branch
+> git checkout <branch name>
+
+5. Clone a repository
 > git clone <url>
 

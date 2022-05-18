@@ -12,5 +12,8 @@
 3. Initialize git repository
 > git init
 
-4. Clone a repository
+4. See commits
+> git log
+
+5. Clone a repository
 > git clone <url>

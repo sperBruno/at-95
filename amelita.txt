@@ -1,1 +1,2 @@
 Amelia Zambrana
+1.Primer comando ls

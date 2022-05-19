@@ -21,3 +21,10 @@
 6. Clone a repository
 > git clone <url>
 
+7. Reset soft
+>git reset --soft <commit id>
+
+---
+#Collaborators
+---
+1. Bruno Barrios (blbarrios@outlook.com)

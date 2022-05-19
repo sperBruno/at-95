@@ -2,3 +2,15 @@ Amelia Zambrana
 1.Primer comando ls
 2.Segundo comando git init
 3.Tercer comando git status
+4.Cuarto comando mkdir amelia-1
+5.Quinto comando git clone https://github.com/sperBruno/at-05
+6.Sexto comando cd at-05
+7.Septimo comando git checkout -b ame1
+9.Octavo comando nano amelita.txt
+10.Decimo comando git status
+11.git add.
+12.git commint -m "Tercer cambio"
+13.git status
+14.git push origin ame1
+
+

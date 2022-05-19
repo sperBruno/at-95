@@ -1,2 +1,4 @@
 Amelia Zambrana
 1.Primer comando ls
+2.Segundo comando git init
+3.Tercer comando git status

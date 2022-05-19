@@ -21,6 +21,9 @@
 6. Clone a repository
 > git clone <url>
 
+7. Reset soft
+>git reset --soft <commit id>
+
 ---
 #Collaborators
 ---

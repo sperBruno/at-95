@@ -21,3 +21,7 @@
 6. Clone a repository
 > git clone <url>
 
+---
+#Collaborators
+---
+1. Bruno Barrios (blbarrios@outlook.com)

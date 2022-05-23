@@ -21,6 +21,10 @@
 6. Clone a repository
 > git clone <url>
 
+#Tools
+
+1. Smartgit 
+
 Git Flow
 
 1. Setear credenciales  - email and user

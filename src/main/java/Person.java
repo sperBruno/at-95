@@ -12,4 +12,8 @@ public class Person {
         System.out.println(result);
         return result;
     }
+
+    public String convertToJson() {
+        return String.format("{\"name\": \"%s\", \"lastName\": \"%s\"}", this.name, this.lastName);
+    }
 }

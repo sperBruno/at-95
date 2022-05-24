@@ -17,4 +17,21 @@ public class PersonaTest {
         Assert.assertEquals(expected, actual);
 
     }
+
+    @Test
+    public void testPersonToJson() {
+        //Arrange
+        //1. choose task
+        //2. Test - Red
+        //3. Test - Green
+        //4. Refactor
+        //5. Repeat
+        String expected = "{\"name\": \"bruno\", \"lastName\": \"barrios\"}";
+        Person bruno = new Person("bruno", "barrios");
+        //Act
+        String personToJson = bruno.convertToJson();
+
+        //Assert
+        Assert.assertEquals(expected, personToJson);
+    }
 }

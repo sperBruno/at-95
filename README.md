@@ -34,3 +34,7 @@ Git Flow
 5. Git commit
 6. Subir el codigo (git push origin DEV-001)
 7. Crear Pull request
+
+Gradle 
+
+> gradle test

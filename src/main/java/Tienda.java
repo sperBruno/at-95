@@ -5,7 +5,15 @@ public class Tienda {
     private List<Producto> listaProductos =  new ArrayList<>();
     public void agregar(Producto producto) {
         System.out.println("agregando producto a compra");
-        listaProductos.add(producto);
+       listaProductos.add(producto);
+
+    }
+
+    public void agregar(Producto producto, int cantidad) {
+        for (int i = 0; i < cantidad; i++) {
+            System.out.println(String.format("Agregando %s, %s vez", producto.getNombre(), i));
+            listaProductos.add(producto);
+        }
     }
 
     public String getRecibo() {

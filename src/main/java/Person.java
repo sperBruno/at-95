@@ -21,10 +21,6 @@ public class Person {
     }
 
     public String convertToJson() {
-<<<<<<< HEAD
-        return String.format("{\"name\": \"%s\", \"lastName\": \"%s\",\"phone\":\"%s\"}", this.name, this.lastName,this.phone);
-=======
         return String.format("{\"name\": \"%s\", \"lastName\": \"%s\", \"Telefono\": \"%s\"}", this.name, this.lastName, this.Telefono);
->>>>>>> 42424b7a29a071762e551956b567b5339f74a3b1
     }
 }

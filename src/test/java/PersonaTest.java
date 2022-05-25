@@ -26,8 +26,8 @@ public class PersonaTest {
         //3. Test - Green
         //4. Refactor
         //5. Repeat
-        String expected = "{\"name\": \"bruno\", \"lastName\": \"barrios\"}";
-        Person bruno = new Person("bruno", "barrios");
+        String expected = "{\"name\": \"bruno\", \"lastName\": \"barrios\", \"Telefono\": \"987654\"}";
+        Person bruno = new Person("bruno", "barrios", "987654");
         //Act
         String personToJson = bruno.convertToJson();
 

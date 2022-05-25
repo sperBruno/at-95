@@ -1,6 +1,7 @@
 public class Person {
     private String name;
     private String lastName;
+
     private String Telefono;
     public Person(String name, String lastName, String Telefono) {
         this.name = name;
@@ -10,7 +11,6 @@ public class Person {
     public Person(String name, String lastName) {
         this.name = name;
         this.lastName = lastName;
-
     }
 
     public String getFullName() {

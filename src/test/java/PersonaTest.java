@@ -7,7 +7,7 @@ public class PersonaTest {
     public void testPersonFullName() {
         //Arrange
         String expected = "Bruno Barrios";
-        Person bruno = new Person("bruno", "barrios");
+        Person bruno = new Person("bruno", "barrios", "70773887");
 
         //Act
 

@@ -1,9 +1,16 @@
 public class Person {
     private String name;
     private String lastName;
+    private String phone;
     public Person(String name, String lastName) {
         this.name = name;
         this.lastName = lastName;
+           }
+
+    public Person(String name, String lastName,String phone) {
+        this.name = name;
+        this.lastName = lastName;
+        this.phone=phone;
     }
 
     public String getFullName() {
@@ -14,6 +21,6 @@ public class Person {
     }
 
     public String convertToJson() {
-        return String.format("{\"name\": \"%s\", \"lastName\": \"%s\"}", this.name, this.lastName);
+        return String.format("{\"name\": \"%s\", \"lastName\": \"%s\",\"phone\":\"%s\"}", this.name, this.lastName,this.phone);
     }
 }
